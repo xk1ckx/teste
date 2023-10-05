@@ -1,0 +1,125 @@
+programa
+{
+	inclua biblioteca Util --> u
+	funcao inicio()
+	{
+		inteiro valor_sorteado
+    cadeia personagem,local,nome2
+			valor_sorteado = u.sorteia(1,5)
+      
+		
+		para(inteiro i = 5; i > 0; i=i-1)
+		{
+			limpa()
+			escreva ("Detonação em: ", i)
+		  	u.aguarde(1000)
+		}
+
+		limpa()
+    
+	escreva("█████████\n")
+	u.aguarde(500)
+  escreva("█▄█████▄█\n")
+	u.aguarde(500)
+  escreva("█▼▼▼▼▼\n")
+	u.aguarde(500)
+  escreva("█\n")                                                                                                                                                                               
+	u.aguarde(500)
+  escreva("                 ,--.,--.                     ,--.           ,--.                                                     ,--.                                                   ,--. \n")
+	u.aguarde(500)
+  escreva("  ,---. ,---.  ,-|  |`--' ,---.  ,---.      ,-|  | ,---.     |  |,-. ,--,--.,--.,--. ,--,--.,--,--,      ,---.      ,-|  | ,---.       ,---. ,--,--.,--,--,--.,--.,--. ,---. |  | \n")
+	u.aguarde(500)
+  escreva(" | .--'| .-. |' .-. |,--.| .-. || .-. |    ' .-. || .-. |    |     /' ,-.  ||  ||  |' ,-.  ||      |    | .-. :    ' .-. || .-. |     (  .-'' ,-.  ||        ||  ||  || .-. :|  | \n")
+	u.aguarde(500)
+  escreva(" | `--.' '-' '\  `-' ||  |' '-' '' '-' '    | `-' |' '-' '    |  \    \\ '-'  ||  ''  |\  '-'  ||  ||  |    |   --.    | `-' |' '-' '    .-'  `)| '-'  ||  |  |  |'  ''  ||\  --. |  | \n")
+	u.aguarde(500)
+  escreva("  `---' `---'  `---' `--' .`-  / `---'      `---'  `---'     `--'`--'`--`--' `----'  `--`--'`--''--'     `----'     `---'  `---'     `----'  `--`--'`--`--`--' `----'  `---' `--' \n")
+	u.aguarde(500)
+  escreva("                          `---'                                                                                                                                                    \n")                                                                                                                                                                                                
+	u.aguarde(500)
+  escreva("█▲▲▲▲▲\n")
+  u.aguarde(500)
+	escreva("█████████\n")
+  u.aguarde(500)
+	escreva(" ██ ██\n\n")
+  u.aguarde(500)
+
+    escreva("Digite o nome do nosso personagem: ")
+    leia(personagem)
+    escreva("Digite um local para nossa história: ")
+    leia(local)
+    escreva("Digite outro nome para um segundo personagem: ")
+    leia(nome2)
+    limpa()
+    escolha(valor_sorteado){
+      caso 1:
+        escreva(personagem,", com seus olhos brilhantes, foi para ",local," na manhã ensolarada. Foi então que ",personagem," avistou...")
+        escreva(nome2,", uma fada de cabelos dourados e asas delicadas.")
+        u.aguarde(2000)
+        escreva("\n\n",nome2," dançava entre as flores, emitindo risos que pareciam sinos encantados.  Estendeu a mão para ",personagem," e sussurrou segredos de criaturas mágicas escondidas na floresta. Juntos, elas enfrentaram dragões de fumaça e resolveram enigmas de árvores sussurrantes.")
+        u.aguarde(2000)
+        escreva("\n\nAo cair da noite, ",personagem," e ",nome2," se sentaram sob o céu estrelado, compartilhando histórias de aventuras passadas. Foi uma jornada mágica e inesquecível que uniu uma exploradora curiosa e uma fada travessa em amizade para sempre, na bela Floresta Encantada.\n\n")
+      pare
+      caso 2:
+        escreva("Em ",local,", onde crimes estranhos eram tão comuns quanto a neblina que envolvia suas ruas, o Detetive ",personagem," era um investigador habilidoso que nunca tinha enfrentado um desafio como aquele. O enigmático Sr. ",nome2," emergira como o principal suspeito em um crime intrincado que parecia tirado de um romance policial.")
+        u.aguarde(2000)
+        escreva("\n\nConforme ",personagem," mergulhava fundo na investigação, cada pista o levava mais perto do segredo guardado pelo Sr. ",nome2,". Ele descobria conexões sinistras com eventos passados e uma rede de conspiração que abalava a própria estrutura da cidade.")
+        u.aguarde(2000)
+        escreva("\n\nEm uma noite tempestuosa, no beco escuro de ",local,", Detetive ",personagem," finalmente confrontou Sr. ",nome2,". Olhares trocados, verdades reveladas e o destino da cidade pendendo sobre a balança. O que ele descobrirá sobre o enigmático suspeito e como isso mudará ",local," para sempre, eram questões que pairavam no ar, tão misteriosas quanto o crime que tentavam resolver.\n\n")
+      pare
+      caso 3:
+        escreva("Em ",local,", onde recursos escassos levaram à decadência da civilização, ",personagem," emergiu como uma sobrevivente corajosa. Ela percorria os terrenos devastados em busca de comida e água, sempre evitando os Saqueadores, liderados pelo implacável ",nome2,", que estavam determinados a controlar os recursos remanescentes.")
+        u.aguarde(2000)
+        escreva("\n\n",personagem,", com sua astúcia e habilidades de sobrevivência, lutava para proteger sua pequena comunidade de amigos e familiares. Enquanto os Saqueadores se aproximavam, uma batalha pelo futuro da humanidade se desenrolava nas paisagens desoladas.")
+        u.aguarde(2000)
+        escreva("\n\nÀ medida que ",personagem," confrontava o ",nome2,", Líder dos Saqueadores em um confronto final, ela descobriu que, por trás de sua crueldade, ele também era um produto desse mundo impiedoso. Em um gesto surpreendente, ela propôs uma aliança para encontrar uma maneira de restaurar a esperança em meio ao caos.")
+        u.aguarde(2000)
+        escreva("\n\nNo final, ",personagem," e o ",nome2,", Líder dos Saqueadores uniram forças para construir um novo começo em ",local,". Sua história, uma narrativa de coragem e redenção, seria passada adiante como um lembrete de que, mesmo nas condições mais sombrias, a humanidade pode encontrar um caminho para a renovação.\n\n")
+      pare
+      caso 4:
+        escreva("Capitão ",personagem,", com seu olho de vidro reluzente e sua sede por aventura, junto com seu companheiro ",nome2," lideravam uma tripulação de piratas destemidos. Eles zarpavam pelos mares turbulentos em busca do lendário tesouro pirata. O guia dessa perigosa jornada era o Mapa do Tesouro, um pergaminho amarelado que se dizia ser mágico.")
+        u.aguarde(2000)
+        escreva("\n\nO mapa, repleto de símbolos enigmáticos, apontava para ",local,", cujas coordenadas exatas eram conhecidas apenas pelo capitão. À medida que a tripulação enfrentava tempestades e monstros marinhos, o mistério se aprofundava.")
+        u.aguarde(2000)
+        escreva("\n\nFinalmente, eles chegaram à ",local,", onde trilharam selvas densas e enfrentaram armadilhas mortais. O mapa os conduziu a uma caverna misteriosa, onde, à luz de archotes, encontraram o tesouro que tantos piratas haviam buscado ao longo dos séculos. A riqueza deslumbrante reluziu nos olhos gananciosos deles, mas o capitão, ao tocar o ouro...")
+        u.aguarde(2000)
+        escreva("\n\nPercebeu que a verdadeira riqueza são os amigos que fazemos no caminho. A história deles se tornaria lendária nos contos de piratas, eternizando a busca pelo tesouro perdido.\n\n")
+      pare
+      caso 5:
+        escreva(personagem,", com seu vestido deslumbrante e máscara de porcelana, chegou ao luxuoso ",local,", onde havia um baile de máscaras, com o coração acelerado de expectativa. No meio da multidão elegante, seus olhos encontraram um misterioso cavalheiro mascarado cujo charme a envolveu instantaneamente.")
+        u.aguarde(2000)
+        escreva("\n\nEles dançaram a noite toda, mergulhando em conversas intrigantes e risos sussurrados. Sob o véu do anonimato proporcionado pelas máscaras, a conexão entre ",personagem," e o mascarado crescia, e a noite se tornava uma aventura romântica.")
+        u.aguarde(2000)
+        escreva("\n\nQuando a aurora começou a clarear o céu, ",personagem," e o mascarado sabiam que a noite estava chegando ao fim. Com um beijo roubado e promessas de reencontro, eles se separaram, ainda sem revelar suas identidades.")
+        u.aguarde(2000)
+        escreva("\n\nNos dias seguintes, ",personagem," ansiava pelo encontro com seu misterioso cavalheiro. Eles trocavam cartas apaixonadas, criando um vínculo que ia além das aparências. No entanto, a verdadeira identidade do mascarado permanecia oculta, e ",personagem," estava determinada a descobrir quem estava por trás da máscara e aprofundar seu amor pelo enigma que a havia conquistado no Baile de Máscaras.\n\n")
+      pare
+    }
+u.aguarde(2000)
+escreva("__________$$$$$$$$______$$$$$$$$$\t    ::::::::::: ::::    ::::  :::::::::::     :::::::::     :::     :::::::::: \n")
+u.aguarde(500)
+escreva("________$$$$$$$$$$$$__$$$$$$$__$$$$\t      :+:     +:+:+: :+:+:+     :+:         :+:    :+:  :+: :+:   :+:        \n")
+u.aguarde(500)
+escreva("_______$$$$$$$$$$$$$$$$$$$$$$$$__$$$\t    +:+     +:+ +:+:+ +:+     +:+         +:+    +:+ +:+   +:+  +:+        \n")
+u.aguarde(500)
+escreva("_______$$$$$$$$$$$$$$$$$$$$$$$$__$$$\t    +#+     +#+  +:+  +#+     +#+         +#++:++#+ +#++:++#++: +#++:++#   \n")
+u.aguarde(500)
+escreva("_______$$$$$$$$$$$$$$$$$$$$$$$$__$$$\t    +#+     +#+       +#+     +#+         +#+       +#+     +#+ +#+        \n")
+u.aguarde(500)
+escreva("________$$$$$$$$$$$$$$$$$$$$$$__$$$\t      #+#     #+#       #+# #+# #+#         #+#       #+#     #+# #+#        \n")
+u.aguarde(500)
+escreva("__________$$$$$$$$$$$$$$$$$$$$$$$\t        ###     ###       ###  #####          ###       ###     ### ########## \n")
+u.aguarde(500)
+escreva("_____________$$$$$$$$$$$$$$$$$\n")
+u.aguarde(500)
+escreva("_______________$$$$$$$$$$$$$\n")
+u.aguarde(500)
+escreva("__________________$$$$$$$\n")
+u.aguarde(500)
+escreva("____________________$$$\n")
+u.aguarde(500)
+escreva("_____________________$\n")
+  }
+}
+
+
